@@ -1,0 +1,17 @@
+{
+  "name": "rpc-load",
+  "version": "0.0.1",
+  "main": "rpc_load.ts",
+  "license": "MIT",
+  "scripts": {
+    "unzip": "tar xvf output.log.zip",
+    "loadtest": "ts-node rpc_load.ts"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.6.1",
+    "ts-node": "^9.0.0"
+  }
+}
